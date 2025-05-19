@@ -1,5 +1,4 @@
-#ifndef FUNCIONES_H
-#define FUNCIONES_H
+
 
 #define MAX 5
 
@@ -9,4 +8,4 @@ void calcularProduccion(int cantidades[MAX], int tiempos[MAX], int recursos[MAX]
 void editarProducto(char nombres[MAX][30], int cantidades[MAX], int tiempos[MAX], int recursos[MAX], int numProductos);
 void eliminarProducto(char nombres[MAX][30], int cantidades[MAX], int tiempos[MAX], int recursos[MAX], int *numProductos);
 
-#endif
+
